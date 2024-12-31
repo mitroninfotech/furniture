@@ -1,0 +1,17 @@
+@use "sass:math";
+body{
+    background-color: red;
+}
+@function diit($size,$base:16px){
+
+    @return math.div($size,$base) * 1rem;
+}
+
+
+h1{
+    font-size: diit(32px);
+}
+
+h2{
+    font-size: diit(50px);
+}

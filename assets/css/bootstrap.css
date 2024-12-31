@@ -1,0 +1,80 @@
+body{
+    font-family: "Titillium Web", serif !important; 
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    box-shadow: 10px 0px 10px 10px #bebcbc;
+}
+.logos{
+    width: 180px;
+}
+.nav-item{
+    margin: 0px 20px;
+}
+.nav-link{
+    font-family: "Titillium Web", serif;
+    font-weight: 500 !important;
+    color: #000 !important;
+    font-size: 20px;
+}
+.br-10{
+    /* height: 450px; */
+    border-radius: 10px;
+}
+.card{
+    margin-top: 40px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+
+}
+.aboutimg{
+    width: 90%;
+    height: 550px;
+    background-image: url('https://i.pinimg.com/736x/f6/6d/c3/f66dc3a2d7c7a5dba25d099234cac852.jpg');
+    border-radius: 10px;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 38%);
+    position: relative;
+    z-index: 90;
+}
+.aboutimg::after{
+    content: "";
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0% 38%);
+}
+.aboutimg::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right:0 ;
+    z-index: 100;
+    background-color: #c91616;
+    margin: 20px;
+    border-radius: 20px; 
+}
+.aboutimg h6{
+    font-size: 230px;
+    position: absolute;
+    color: #000;
+    top: 0;
+    z-index: 999;
+    text-align: center;
+    margin: 130px 0px 0px 100px;
+    font-weight: 700;
+    background-color: #2f8d46;
+    background-image: url('https://i.pinimg.com/736x/f6/6d/c3/f66dc3a2d7c7a5dba25d099234cac852.jpg');
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: left;
+}

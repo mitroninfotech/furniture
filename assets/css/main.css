@@ -1,0 +1,13 @@
+body {
+  background-color: red;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: diits(50px);
+}
+
+/*# sourceMappingURL=main.css.map */

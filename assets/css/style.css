@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --theme-primary-color:#8fb85c;
+    --theme-primary-color2:#FFD873;
+    --body-font1:'Roboto', sans-serif;
+    --heading-font:'Inter', sans-serif;
+    --color:#5c86b8; 
+    --padding:0px 80px;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px;
+    }
+}
+body{
+    font-family: var(--body-font1);
+    font-size: 16px;
+
+}
+.plr{
+ padding: var(--padding);
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: var(--theme-primary-color); 
+}
+section{
+    width: 100%;
+    height: 450px;
+    background-color: var(--theme-primary-color2);
+    padding: var(--content-gap-padding);
+}
+.bgimage{
+    width: 100%;
+    height: 400px;
+    background-image: url('https://live.themewild.com/fameo/assets/img/hero/bg.jpg');
+    background-size: cover;
+}
